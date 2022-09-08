@@ -1,0 +1,140 @@
+div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.welcome {
+    font-size: 54px;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+html {
+    height: 100%;
+    background-image: linear-gradient(deepskyblue, white);
+    font-family: 'Arial';
+}
+
+body {  
+    margin: 0;  
+    padding: 0;  
+}
+
+.login {  
+        width: 310px;  
+        overflow: hidden;  
+        margin: auto;  
+        margin: 30 0 0 0px;  
+        padding: 80px;  
+        background: whitesmoke;  
+        border-radius: 15px ; 
+        box-shadow: 3px 3px #888888; 
+}  
+
+h2 {  
+    text-align: center;  
+    color: #277582;  
+    padding: 20px;  
+}  
+
+label {  
+    font-size: 17px;  
+}  
+
+#uname {  
+    width: 300px;  
+    height: 30px;  
+    border: 2px solid;
+    border-radius: 3px;  
+    padding-left: 8px;  
+}
+
+#uname:hover {
+    border:2px solid red;
+}
+
+#pass {  
+    width: 300px;  
+    height: 30px;  
+    border: 2px solid;
+    border-radius: 3px;  
+    padding-left: 8px;  
+}  
+
+#pass:hover {
+    border:2px solid red;
+}
+
+#log {  
+    width: 150px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    color: blue;
+    margin-left: 25%;
+}  
+
+span {  
+    color: white;  
+    font-size: 17px;  
+}  
+
+a {  
+    float: right;  
+    background-color: grey;  
+} 
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: white;
+}
+
+#student_table {
+    width: 100%;
+}
+
+
+#rollno {
+    font-size: 16px;
+    height: 45px;
+}
+
+#name {
+    font-size: 16px;
+    height: 45px;
+}
+
+#addrow {
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    height: 50px;
+}
+
+#delrow {
+    background-color: red;
+    margin-left: 30%;
+    border: none;
+    height: 45px;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    width: 250px;
+}

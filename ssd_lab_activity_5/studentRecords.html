@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>
+		Student Records
+	</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript">
+		function add_row() {
+			var table = document.getElementById("student_table");
+			var row = table.insertRow();
+			var cell1 = row.insertCell();
+			var cell2 = row.insertCell();
+			cell1.innerHTML = document.getElementById("rollno").value;
+			cell2.innerHTML = document.getElementById("name").value;
+		}
+
+		function delete_row() {
+			 document.getElementById("student_table").deleteRow(-1);
+		}
+	</script>
+</head>
+<body>
+	<h1 class="welcome">Student Records</h1>
+	<div>
+		<input type="text" name="rollno" id="rollno" placeholder="Roll Number">
+		<input type="text" name="name" id="name" placeholder="Name">
+		<input type="button" id="addrow" name="addrow" value="Add Row" onclick="add_row()">
+
+		<br><br>
+
+		<table id="student_table">
+			<tr>
+				<th style="color: white; background-color: blue; width: 50%;">Roll Number</th>
+				<th style="color: white; background-color: blue; width: 50%;">Name</th>
+			</tr>
+		</table>
+		<br><br>
+		<input type="button" id="delrow" name="delrow" value="Delete Last Row" onclick="delete_row()">
+	</div>
+</body>
+</html>
