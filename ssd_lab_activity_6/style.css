@@ -1,0 +1,28 @@
+.heading {
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+}
+
+#float_div {
+
+}
+
+#div1 {
+	width: 100px;
+	height: 100px;
+	border: 1px solid red;
+	float: left;
+}
+
+#div2 {
+	width: 100px;
+	height: 100px;
+	border: 1px solid red;
+	margin-left: 150px;
+	
+}
+
+form {display: table;}
+p {display: table-row;}
+input {display: table-cell;}
