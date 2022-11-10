@@ -4,7 +4,7 @@
 
 Login and registration endpoints using Flask and flask_login.
 
-###Class User:
+### Class User:
 
 -username
 
@@ -12,7 +12,7 @@ Login and registration endpoints using Flask and flask_login.
 
 -password
 
-###App routes:
+### App routes:
 
 -/user/signup
 
@@ -28,5 +28,5 @@ do_signin() method takes json of request and matches email and password with the
 logout() method clears session and logs out user
 
 
-To run:
+### To run:
 python3 server.py
