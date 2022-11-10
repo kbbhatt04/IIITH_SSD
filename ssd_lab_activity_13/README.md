@@ -4,14 +4,16 @@
 
 Login and registration endpoints using Flask and flask_login.
 
-Class User:
+###Class User:
+
 -username
 
 -email
 
 -password
 
-App routes:
+###App routes:
+
 -/user/signup
 
 -/user/signin
